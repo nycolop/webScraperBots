@@ -1,5 +1,26 @@
 {
   "dependencies": {
-    "puppeteer": "^19.2.2"
-  }
+    "puppeteer": "^19.2.2",
+    "typescript": "^4.8.4"
+  },
+  "name": "scraperbots",
+  "description": "* Web App: You need to wait for the scripts to load in the web page, like an SPA. For this method you need to use \"puppeteer\".\r * Web Site: The content is accessible immediately. For this method you need to use \"axios\" and \"cheerio.js\".",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "scraper:webapp": "cd ./src/webApp && tsc index.ts && node index.js",
+    "scraper:website": "cd ./src/webSite && tsc index.ts && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nycolop/webScraperBots.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nycolop/webScraperBots/issues"
+  },
+  "homepage": "https://github.com/nycolop/webScraperBots#readme"
 }

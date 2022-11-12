@@ -1,1 +1,3 @@
 node_modules/
+src/webApp/index.js
+src/webSite/index.js
